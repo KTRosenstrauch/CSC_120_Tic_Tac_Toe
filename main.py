@@ -5,8 +5,8 @@ def print_board():...
 
 # This function returns True if board[row][col] is currently unmarked
 # and thus can be chosen by a player. It returns False otherwise
-def check_mark(row, column, player):...
-
+def check_mark(row, column)= returns True/False
+ 
 # This function returns True if the indicated player has won the game
 # It returns False otherwise
 # For player 1, winning occurs board has a complete row, column or
@@ -16,7 +16,7 @@ def check_mark(row, column, player):...
 def check_win(player):...
 
 
-def place_mark(param, param1, param2):
+def place_mark(row, column, player) => player=1 => "X", 2 => "O"
     pass
 
 
